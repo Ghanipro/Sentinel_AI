@@ -1,9 +1,6 @@
 ﻿# Sentinel_AI
  🛡️ Autonomous Intrusion Response System with Deep Reinforcement Learning
-https://img.shields.io/badge/python-3.8+-blue.svg
-https://img.shields.io/badge/Stable--Baselines3-2.0+-orange.svg
-https://img.shields.io/badge/Gymnasium-0.29+-green.svg
-https://img.shields.io/badge/License-MIT-yellow.svg
 
 A research-oriented implementation of an autonomous intrusion response system using Proximal Policy Optimization (PPO) reinforcement learning. This system learns optimal defense strategies in realistic corporate network environments against cyber attacks.
+
 
