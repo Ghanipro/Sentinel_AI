@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "random": {
+      "mean_reward": 55.645,
+      "std_reward": 41.482091216170225,
+      "success_rate": 0.2,
+      "avg_episode_length": 52.7,
+      "avg_containments": 10.4,
+      "avg_false_positives": 3.2
+    },
+    "conservative": {
+      "mean_reward": 14.000000000000004,
+      "std_reward": 15.222992478484649,
+      "success_rate": 0.03333333333333333,
+      "avg_episode_length": 33.03333333333333,
+      "avg_containments": 2.8,
+      "avg_false_positives": 0.43333333333333335
+    },
+    "aggressive": {
+      "mean_reward": 64.33499999999998,
+      "std_reward": 43.81063826286944,
+      "success_rate": 0.16666666666666666,
+      "avg_episode_length": 54.56666666666667,
+      "avg_containments": 10.566666666666666,
+      "avg_false_positives": 10.833333333333334
+    },
+    "targeted": {
+      "mean_reward": 35.25333333333332,
+      "std_reward": 31.115971068818588,
+      "success_rate": 0.03333333333333333,
+      "avg_episode_length": 37.03333333333333,
+      "avg_containments": 6.033333333333333,
+      "avg_false_positives": 6.366666666666666
+    }
+  },
+  "heuristic": {
+    "mean_reward": 25.166666666666668,
+    "std_reward": 8.548511891291698,
+    "success_rate": 0.0,
+    "avg_episode_length": 22.866666666666667,
+    "avg_containments": 2.3,
+    "avg_false_positives": 0.0
+  },
+  "ppo": {
+    "mean_reward": 9.811000000000002,
+    "std_reward": 16.590727199251997,
+    "success_rate": 0.0,
+    "avg_episode_length": 27.64,
+    "avg_containments": 4.28,
+    "avg_false_positives": 23.36
+  }
+}

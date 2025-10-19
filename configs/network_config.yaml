@@ -1,0 +1,26 @@
+network:
+  topology:
+    subnets:
+      - name: "dmz"
+        nodes: ["web_server", "load_balancer"]
+        security_level: "low"
+      
+      - name: "internal"
+        nodes: ["app_server", "file_server", "workstation"] 
+        security_level: "medium"
+      
+      - name: "restricted"
+        nodes: ["database_server", "domain_controller", "developer_pc"]
+        security_level: "high"
+
+environment:
+  max_steps: 100
+  initial_compromised: ["web_server_1", "workstation_1"]
+  
+  rewards:
+    successful_defense: 3.0
+    prevented_attack: 2.0
+    critical_asset_protected: 5.0
+    service_disruption: -1.5
+    false_positive: -1.0
+    critical_breach: -8.0
